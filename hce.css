@@ -1,0 +1,552 @@
+*{
+    padding: 0;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.top{
+    display: flex;
+    height: 20px;
+    /* background-color: tomato; */
+    margin-top: 10px;
+}
+.tops{
+    display: flex;
+
+   margin-left: 60%;
+
+
+}
+.header__con-top i:nth-child(1){
+    font-size: 20px;
+    position: relative;
+    top:5px;
+    margin-right: 5px;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    /* background:violet; */
+    display: flex;
+}
+.input{
+    height: 30px;
+    width: 230px;
+    /* background:springgreen; */
+    margin-left: 100px;
+    margin-top: 40px;
+    display: flex;
+    
+}
+.logo__mp3{
+    height: 70px;
+    width: 300px;
+    /* background-color: cadetblue; */
+    margin-top: 40px;
+    margin-left: 20px;
+}
+audio{
+    height: 30px;
+    margin-top: 5px;
+    width: 200px;
+   margin-left: 50px;
+   border-radius: 0px
+}
+
+form{
+    display: flex;
+}
+.logo-icon{
+    height: 30px;
+    width: 40px;
+    background:#b01116;
+   
+} 
+/* .logo-icon i{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+} */
+
+.inputs{
+    height: 28px;
+    padding-left: 10px;
+    outline: none;
+   border: 1px solid #b01116 ;
+   border-right: 0px;
+  
+}
+.submit{
+   height: 30px;
+   width: 40px;
+    outline: none;
+    cursor: pointer;
+}
+.logos{
+    height: 100px;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/Assets/img/hce.png);
+    margin-left: 100px;
+}
+.top__con-sv{
+    margin-right: 10px;
+}
+.top__con-img{
+    padding-left: 10px;
+    height: 20px;
+    width: 20px;
+    background-image: url(/Assets/img/usa.png);
+}
+.top__con{
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: solid 1px #b01116;
+    color: #b01116;
+}
+.header{
+    height: 30px;
+    width: 100%;
+    background-color: #b01116;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: 5px solid rgb(253, 253, 15);
+
+}
+.headers{
+    display: flex;
+    margin: auto;
+  
+}
+
+.header__con{
+    height: 30px;
+    width:170px;
+    background-color: #b01116;
+    text-align: center;
+    border-right: solid 1px #fff;
+   text-transform:uppercase;
+   color: #fff;
+   font-size: 13px;
+   line-height: 30px;
+
+}
+
+.header__con:hover{
+    color: #333;
+    background-color: yellow;
+}
+
+.container-img{
+    height: 504px;
+    width: 850px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: url(/Assets/img/họp.jpg);
+}
+@keyframes hover {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.header__con-top-icon-home{
+    margin-left: 5px;
+}
+/* .container-img:hover{
+    height: 505px;
+    width: 750px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image: url(/Assets/img/phuong-hang.jpg);
+    animation: ease 1.5s hover;
+} */
+.container-img{
+    animation-name: keyframes;
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+}
+@keyframes keyframes{
+   0%{
+       background-image: url(http://kthcm.edu.vn/media/5-kbper_wuMttC0kk1dicsa4EE9DY0I81yD7eMEJyaruWgqPSHpxzjD_pMavyItP.jpg);
+   }
+   25%{
+       background-image: url(https://image.talentnetwork.vn/cdkinhtehcm///news/2019/08/01/1564624564_27f2ce05449aa0c4f98b-2-.jpg);
+   } 
+   50%{
+    background-image: url(http://kthcm.edu.vn/media/6zJA2fj_-vdon4iecEDdIQmr48UraDat2saE75i28QB-SFAK1nBtPLBEPXt1lt0AewS1h_-U4wvokHfIOxkNDQ.JPG);
+} 
+    75%{
+    background-image: url(http://kthcm.edu.vn/media/MR3f_3V1qhqkCaOkVDYfZ8xVxLbu3PiEhrknQzHimCo14pzzbzgjxEkqu894Ythr.jpg);
+}
+     100%{
+    background-image: url(http://kthcm.edu.vn/media/zKG0DCUzrSAlkJ_xocujvgUWOzdJvA4wRRgE6LziC-fQLZOMDl198yVpBHer1Pnx.JPG);
+}
+}
+.container-list{
+    height: 500px;
+    width: 330px;
+    background:cornflowerblue;
+}
+.container-list-con{
+    height: 100px;
+    width: 100%;
+    background:#999;
+    border-bottom: 1px solid #fff;
+   
+}
+.container-list-con1, 
+.container-list-con2, 
+.container-list-con3, 
+.container-list-con4, 
+.container-list-con5{
+    display: flex;
+}
+.container-list-con1-img{
+    height: 80px;
+    width: 230px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.kthcm.edu.vn/WebSlideShow/GetThumb?url=%2Fslideshow%2Fchaomungtansinhvien_02102021093406397_0ci1hzsx.bc4.jpg&width=150&height=83);
+}
+.text{
+    height: 80px;
+    width: 200px;
+    /* background:red; */
+    margin-top: 20px;
+    margin-right: 10px;
+    text-transform:capitalize;
+    font-size: 15px;
+    color: #fff;
+}
+
+.container-list-con:hover{
+    background:rgb(0, 162, 255);
+}
+.hover1{
+    height: 120px;
+    width: 170px;
+    background:chocolate;
+    position: relative;
+    left: 0px;
+    border-left: 1px solid #fff;
+    display: none;
+}
+.hover2{
+    height: 120px;
+    width: 170px;
+    background:chocolate;
+    position: relative;
+    left:0px;
+    border-left: 1px solid #fff;
+    display: none;
+}
+.hover3{
+    height: 120px;
+    width: 170px;
+    background:chocolate;
+    position: relative;
+    left: 0px;
+    border-left: 1px solid #fff;
+    display: none;
+}
+.hover4{
+    height: 120px;
+    width: 170px;
+    background:chocolate;
+    position: relative;
+    left: 0px;
+    border-left: 1px solid #fff;
+    display:none;
+}
+.hover5{
+    height: 120px;
+    width: 170px;
+    background:chocolate;
+    position: relative;
+    left: 0px;
+    border-left: 1px solid #fff;
+    display: none;
+}
+.hover6{
+    height: 120px;
+    width: 170px;
+    background:chocolate;
+    position: relative;
+    left: 0px;
+    border-left: 1px solid #fff;
+    display: none;
+}
+.hover7{
+    height: 120px;
+    width: 170px;
+    background:chocolate;
+    position: relative;
+    left: 0px;
+    border-left: 1px solid #fff;
+    display: none;
+}
+.header__con-top:hover .hover1{
+    display: block;
+}
+.header__con-top2:hover .hover2{
+    display: block;
+}
+.header__con-top3:hover .hover3{
+    display: block;
+}
+.header__con-top4:hover .hover4{
+    display: block;
+}
+.header__con-top5:hover .hover5{
+    display: block;
+}
+.header__con-top6:hover .hover6{
+    display: block;
+}
+.header__con-top7:hover .hover7{
+    display: block;
+}
+.hovers{
+    height: 30px;
+    width: 100%;
+    background:#b01116;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.hovers:hover{
+ background:red;
+}
+.container-list-con1-img1{
+    background-image: url(https://www.kthcm.edu.vn/WebSlideShow/GetThumb?url=%2Fslideshow%2Fhieu-truong_03032021015455544_v0l25yv4.eho.jpg&width=150&height=83);
+}
+.container-list-con1-img2{
+    background-image:url(https://www.kthcm.edu.vn/WebSlideShow/GetThumb?url=%2Fslideshow%2Fhoi-bong-nazarene_04092019042908618_3dozgqxg.3gf.jpg&width=150&height=83)
+}
+.container-list-con1-img3{
+    background-image: url(https://www.kthcm.edu.vn/WebSlideShow/GetThumb?url=%2Fslideshow%2Flamviec-cdbaclieu-210310_02102021075132949_nw1slon1.qln.jpg&width=150&height=83);
+}
+.container-list-con1-img4{
+    background-image: url(https://www.kthcm.edu.vn/WebSlideShow/GetThumb?url=%2Fslideshow%2Flkg-daotao-dndetmay-200910_02102021075918166_rzkfqkk5.o5p.jpg&width=150&height=83);
+}
+
+body{
+    /* animation-name: bodybg; */
+    animation-duration: 1s; 
+    animation-iteration-count: infinite;
+}
+@keyframes bodybg{
+    0% {background:linear-gradient(115deg,rgba(0, 255, 128, 0.418),rgba(0, 0, 255, 0.404))};
+}
+.container{
+    height: 500px;
+    width: 1100px;
+    margin: auto;
+    background:springgreen;
+    display: flex;
+
+ 
+}
+.text-linh1:hover{
+text-decoration: underline;
+}
+.text-linh2:hover{
+text-decoration: underline;
+}
+.text-linh3:hover{
+    text-decoration: underline;
+}
+.text-linh4:hover{
+    text-decoration: underline;
+}
+.text-linh5:hover{
+    text-decoration: underline;
+}
+.containers{
+    height: 750px;
+    width: 1100px;
+    margin: auto;
+    /* background: rgb(247, 199, 247); */
+    border: solid #b01116 1px;
+    margin-top: 25px;
+
+}
+.containers__hoailinh1{
+    height: 430px;
+    width: 100%;
+    /* background: springgreen; */
+    display:flex;
+}
+.containers__hoailinh1-con{
+    /* background-color: dodgerblue; */
+    height: 300px;
+    width: 200px;
+    margin-left: 10px;
+    position: relative;
+    top:10px
+}
+.containers__hoailinh1-con h4{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight:bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.containers__hoailinh1-con p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.containers__hoailinh1-con-hoailinh{
+    width: 250px;
+    height: 390px;
+    margin-left: 20px;
+}
+.containers__hoailinh1-con-hoailinh h4{
+    text-align: left;
+    text-transform:uppercase;
+    font-size: 15px;
+}
+.containers__hoailinh1-con-hoailinh p{
+    text-align: left;
+   margin-right: 10px;
+}
+.containers__hoailinh1-con-hoailinh hr{
+    margin-top: 5px;
+    height: 1px;
+    width: 90%;
+    margin: auto;
+    background: #b01116;
+    border: none;
+    margin-top: 5px;
+}
+.icon-news {
+    background: url(data:image/gif;base64,R0lGODlhIQAQAMQVAMxmZswzZv+ZzP8AM8z//8yZmcxmmZkzM8yZZv8zM/8zZswAM/9mmczMzP/MzP9mZswzM/+Zmf8AAP///8wAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEfAAAh/wtYTVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjZDQzVGQjQwN0UyNjExRTVCQkE3Q0NCMzFEQjY4Q0FEIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjZDQzVGQjQxN0UyNjExRTVCQkE3Q0NCMzFEQjY4Q0FEIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NkNDNUZCM0U3RTI2MTFFNUJCQTdDQ0IzMURCNjhDQUQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NkNDNUZCM0Y3RTI2MTFFNUJCQTdDQ0IzMURCNjhDQUQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+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);
+    display: inline-block !important;
+    height: 16px!important;
+    width: 33px!important;
+}
+.containers__hoailinh-con-img{
+    height: 190px;
+    width: 200px;
+    background: url(https://www.kthcm.edu.vn/University/26_HCE/img/info_h1.png);
+}
+.containers__hoailinh2{
+    height: 330px;
+    width: 100%;
+    /* background: blueviolet; */
+    display: flex;
+}
+.containers__hoailinh1-con2{
+    height: 280px;
+    width: 200px;
+    margin-left: 20px;
+    position: relative;
+    top:10px;
+    /* background: steelblue; */
+    margin-top: 20px;
+}
+.containers__hoailinh1-con2 h4{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight:bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.containers__hoailinh-con-img2{
+    height: 190px;
+    width: 200px;
+    margin-top: 10px;
+    background:url(https://www.kthcm.edu.vn/University/26_HCE/img/info_l1.png);
+    background-repeat: no-repeat;
+    margin-left: 7.5px;
+}
+.containerss{
+    height: 100px;
+    width:1100px;
+    /* background:paleturquoise; */
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+}
+.containerss__hoailinh-left{
+    height: 65px;
+    width:65px;
+    /* background:tomato; */
+
+}
+.containerss__hoailinh-right{
+    height: 65px;
+    width:65px;
+    /* background:tomato; */
+
+}
+.containerss__hoailinh-between{
+    height: 65px;
+    width: 1000px;
+    /* background:turquoise; */
+}
+.footer{
+    height: 220px;
+    width: 100%;
+    background:#910409;
+    display: flex;
+}
+.footer__map{
+    height:160px ;
+    width: 230px;
+    /* background:tomato; */
+    margin-left: 150px;
+    margin-top:20px;
+    color: #fff;
+}
+.footer__map-img{
+    height:130px ;
+    width: 230px;
+    background:url(/Assets/img/map.png);
+    background-size: cover;
+    
+}
+.footer__hotline{
+    height: 180px;
+    width: 350px;
+    /* background:violet; */
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #fff;
+}
+.footer__hotline-linh{
+    /* height: 40px;
+    width: 300px; */
+    /* background:#999; */
+    margin-top: 10px;
+    display: flex;  
+    
+}
+.footer__hotline-linh p{
+    font-size: 13px;
+}
+.footer__link{
+    height: 200px;
+    width: 120px;
+    /* background:violet; */
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.footer__link-link{
+    display: flex;
+
+}
+.footer__hotline-linh2{
+    width:250px;
+   margin: auto;
+   margin-top: 10px;
+}
